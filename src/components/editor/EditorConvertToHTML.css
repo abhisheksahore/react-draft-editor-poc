@@ -1,0 +1,150 @@
+/* .editor-contanier {
+    padding: 3rem;
+}
+
+.demo-wrapper {
+    background-color: red;
+}
+
+.editor-toolbar {
+    background-color: green;
+    flex-wrap: wrap;
+    height: 100px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.dropdown-wrapper {
+    padding: .1rem;
+    background-color: rgb(247, 247, 247);
+    border-radius: .15rem;
+    border: 1px solid rgb(171, 171, 171);
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+}
+
+.rdw-left-aligned-block > div {
+    display: inline-block;
+}
+.rdw-center-aligned-block > div {
+    display: inline-block;
+}
+.rdw-right-aligned-block > div {
+    display: inline-block;
+}
+.rdw-justify-aligned-block > div {
+    display: inline-block;
+}
+
+.rdw-center-aligned-block {
+    text-align: center !important;
+}
+.rdw-right-aligned-block {
+    text-align: right !important;
+}
+.rdw-left-aligned-block {
+    text-align: left !important;
+}
+.rdw-justify-aligned-block {
+    text-align: justify !important;
+}
+
+
+
+.demo-editor {
+    border-radius: .3rem;
+    border: 1px solid rgb(187, 187, 187);
+    background-color: rgb(251, 251, 251);
+    min-height: 200px;
+    padding: 1rem;
+    height: 275px !important;
+}
+
+.toolbar-block {
+    display: flex;
+    gap: .5rem;
+}
+
+.flex {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.toolbar-btn {
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: .2rem;
+    height: fit-content;
+    padding: 3px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.dropdown-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    border: 1px solid grey;
+    top: 1rem;
+    background-color: rgb(243, 243, 243);
+    border-color: rgb(199, 198, 198);
+    border-radius: 5px;
+    padding: 0;
+    width: 12rem;
+    max-height: 250px;
+    overflow: auto;    
+}
+
+.dropdown-list-wrapper li { 
+    padding: .5rem 1rem;
+}
+
+.dropdown-list-wrapper li:hover {
+    background-color: rgb(183, 182, 182);
+} 
+
+.dropdown-bundle-wrapper {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: rgb(237, 237, 237);
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.dropdown-bundle-wrapper span {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-bundle-wrapper span:hover {
+    background-color: rgb(197, 196, 196);
+}
+
+.dropdown-btn {
+    width: 150px;
+}
+
+.dropdown-btn-font-size {
+    width: 50px;
+}
+ */

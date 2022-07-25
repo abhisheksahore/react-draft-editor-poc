@@ -5,7 +5,7 @@ import EditorConvertToHTML from './components/editor/EditorConvertToHTML.jsx'
 function App() {
   return (
     <>
-      <h1>This is working...</h1>
+      <h1 style={{textAlign: 'center'}}>This is working...</h1>
       <EditorConvertToHTML />
     </>
   );

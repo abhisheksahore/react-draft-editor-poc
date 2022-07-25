@@ -19,9 +19,9 @@ const EditorConvertToHTML = () => {
     <div className='editor-contanier'>
       <Editor
         editorState={editorState}
-        wrapperClassName="demo-wrapper"
-        editorClassName="demo-editor"
-        toolbarClassName='editor-toolbar'
+        wrapperClassName="demo-wrapper main-wrapper"
+        editorClassName="demo-editor editor"
+        toolbarClassName='editor-toolbar toolbar'
         toolbar={{
           inline: {
             className: "flex",
@@ -107,12 +107,13 @@ const EditorConvertToHTML = () => {
             popupClassName: "dropdown-bundle-wrapper",
           },
           image: {
-            
+
           }
         }}
         onEditorStateChange={onEditorStateChange}
       />
       <textarea
+          style={{width: "1000px"}}
           disabled
           value={draftToHtml(convertToRaw(editorState.getCurrentContent()))}
         />
